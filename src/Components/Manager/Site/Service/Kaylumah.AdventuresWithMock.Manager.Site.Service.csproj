@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interface\Kaylumah.AdventuresWithMock.Manager.Site.Interface.csproj" />
+    <ProjectReference Include="..\..\..\Access\Author\Interface\Kaylumah.AdventuresWithMock.Access.Author.Interface.csproj" />
+    <ProjectReference Include="..\..\..\Access\Article\Interface\Kaylumah.AdventuresWithMock.Access.Article.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.14" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
